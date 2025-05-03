@@ -80,3 +80,35 @@ nav.more-section a {
 nav.more-section a:hover {
     text-decoration: underline;
 }
+
+.branding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.branding-text {
+    text-align: left;
+}
+
+.company-name {
+    font-size: 1.8em;
+    margin: 0;
+    color: #ffffff;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1em;
+    color: #cce0ff;
+    margin-top: 5px;
+}
